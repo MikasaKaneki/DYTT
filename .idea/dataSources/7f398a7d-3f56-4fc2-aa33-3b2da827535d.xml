@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="mjy_test@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="mjy_test">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="information_schema"/>
+    <schema id="4" parent="1" name="mysql"/>
+    <schema id="5" parent="1" name="performance_schema"/>
+    <schema id="6" parent="1" name="sakila"/>
+    <schema id="7" parent="1" name="sys"/>
+    <schema id="8" parent="1" name="world"/>
+    <table id="9" parent="2" name="dytt"/>
+    <column id="10" parent="9" name="Chinese_Name">
+      <Position>1</Position>
+      <DataType>mediumtext|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="11" parent="9" name="Name">
+      <Position>2</Position>
+      <DataType>mediumtext|0</DataType>
+    </column>
+    <column id="12" parent="9" name="YEAR">
+      <Position>3</Position>
+      <DataType>mediumtext|0</DataType>
+    </column>
+    <column id="13" parent="9" name="Production_Place">
+      <Position>4</Position>
+      <DataType>mediumtext|0</DataType>
+    </column>
+    <column id="14" parent="9" name="Type">
+      <Position>5</Position>
+      <DataType>mediumtext|0</DataType>
+    </column>
+    <column id="15" parent="9" name="Language">
+      <Position>6</Position>
+      <DataType>mediumtext|0</DataType>
+    </column>
+    <column id="16" parent="9" name="Subtitle">
+      <Position>7</Position>
+      <DataType>mediumtext|0</DataType>
+    </column>
+    <column id="17" parent="9" name="IMDb">
+      <Position>8</Position>
+      <DataType>mediumtext|0</DataType>
+    </column>
+    <column id="18" parent="9" name="Douban">
+      <Position>9</Position>
+      <DataType>mediumtext|0</DataType>
+    </column>
+    <column id="19" parent="9" name="Layout">
+      <Position>10</Position>
+      <DataType>mediumtext|0</DataType>
+    </column>
+    <column id="20" parent="9" name="Size">
+      <Position>11</Position>
+      <DataType>mediumtext|0</DataType>
+    </column>
+    <column id="21" parent="9" name="FileSize">
+      <Position>12</Position>
+      <DataType>mediumtext|0</DataType>
+    </column>
+    <column id="22" parent="9" name="Time">
+      <Position>13</Position>
+      <DataType>mediumtext|0</DataType>
+    </column>
+    <column id="23" parent="9" name="Director">
+      <Position>14</Position>
+      <DataType>mediumtext|0</DataType>
+    </column>
+    <column id="24" parent="9" name="Acter">
+      <Position>15</Position>
+      <DataType>mediumtext|0</DataType>
+    </column>
+    <column id="25" parent="9" name="Link">
+      <Position>16</Position>
+      <DataType>mediumtext|0</DataType>
+    </column>
+  </database-model>
+</dataSource>
