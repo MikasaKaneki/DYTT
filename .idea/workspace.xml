@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a653786e-bceb-4510-8032-cbc47d32c9f1" name="Default" comment="" />
+    <list default="true" id="a653786e-bceb-4510-8032-cbc47d32c9f1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dytt/dytt.py" afterPath="$PROJECT_DIR$/dytt/dytt.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/DYTT$dytt.coverage" NAME="dytt Coverage Results" MODIFIED="1519313300137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dytt" />
+    <SUITE FILE_PATH="coverage/DYTT$dytt.coverage" NAME="dytt Coverage Results" MODIFIED="1519317018023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dytt" />
     <SUITE FILE_PATH="coverage/DYTT$test.coverage" NAME="test Coverage Results" MODIFIED="1519190064043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model" />
   </component>
   <component name="DatabaseView">
@@ -30,6 +33,12 @@
         <item name="" type="eadb38e5:DatabaseStructure$Root" />
         <item name="mjy_test@localhost" type="e3449647:DbNodeDescriptor" />
         <item name="mjy_test" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="mjy_test@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="mjy_test" type="e3449647:DbNodeDescriptor" />
+        <item name="dytt" type="e3449647:DbNodeDescriptor" />
       </path>
     </expand>
     <select />
@@ -56,7 +65,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -69,19 +78,19 @@
       <file leaf-file-name="dytt.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dytt/dytt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6450">
-              <caret line="215" column="16" lean-forward="true" selection-start-line="215" selection-start-column="16" selection-end-line="215" selection-end-column="16" />
+            <state relative-caret-position="-3739">
+              <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <marker date="1519313300111" expanded="true" signature="4209:4234" ph="DROP TABLE I... " />
-                <marker date="1519313300111" expanded="true" signature="4254:4885" ph="CREATE TABLE... DYTT" />
-                <marker date="1519313300111" expanded="true" signature="10629:10914" ph="INSERT INTO DYTT... " />
+                <marker date="1519316934404" expanded="true" signature="597:622" ph="DROP TABLE I... " />
+                <marker date="1519316934404" expanded="true" signature="642:1273" ph="CREATE TABLE... DYTT" />
+                <marker date="1519316934404" expanded="true" signature="7048:7333" ph="INSERT INTO DYTT... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dytt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dytt" pinned="false" current-in-tab="true">
         <entry file="das://table:/b53de5e1/7f398a7d-3f56-4fc2-aa33-3b2da827535d/mjy_test.dytt">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
@@ -110,6 +119,8 @@
       <find>Name</find>
       <find>.*</find>
       <find>UrlHead</find>
+      <find>getHtmlContent</find>
+      <find>prin</find>
     </findStrings>
     <replaceStrings>
       <replace>\u3000\u3000</replace>
@@ -118,6 +129,9 @@
       <replace>MEDIUMTEXT</replace>
       <replace>.*?</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -136,11 +150,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="671" />
-    <option name="y" value="109" />
+    <option name="x" value="222" />
+    <option name="y" value="228" />
     <option name="width" value="1556" />
     <option name="height" value="952" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -191,6 +206,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.data.extractors.current.id" value="JSON-Clojure.json.clj" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/dytt-master" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -363,17 +379,17 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15245202" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965687" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39673913" sideWeight="0.44722813" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20522387" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39673913" sideWeight="0.55277187" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39499456" sideWeight="0.44936034" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16364606" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39499456" sideWeight="0.5506396" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965687" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -401,9 +417,9 @@
           <caret line="78" column="72" lean-forward="false" selection-start-line="78" selection-start-column="72" selection-end-line="78" selection-end-column="72" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1519313300111" expanded="true" signature="4209:4234" ph="DROP TABLE I... " />
-            <marker date="1519313300111" expanded="true" signature="4254:4885" ph="CREATE TABLE... DYTT" />
-            <marker date="1519313300111" expanded="true" signature="10629:10914" ph="INSERT INTO DYTT... " />
+            <marker date="1519316934404" expanded="true" signature="597:622" ph="DROP TABLE I... " />
+            <marker date="1519316934404" expanded="true" signature="642:1273" ph="CREATE TABLE... DYTT" />
+            <marker date="1519316934404" expanded="true" signature="7048:7333" ph="INSERT INTO DYTT... " />
           </folding>
         </state>
       </provider>
@@ -737,27 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/b53de5e1/7f398a7d-3f56-4fc2-aa33-3b2da827535d/mjy_test.dytt">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dytt/dytt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6450">
-          <caret line="215" column="16" lean-forward="true" selection-start-line="215" selection-start-column="16" selection-end-line="215" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1519313300111" expanded="true" signature="4209:4234" ph="DROP TABLE I... " />
-            <marker date="1519313300111" expanded="true" signature="4254:4885" ph="CREATE TABLE... DYTT" />
-            <marker date="1519313300111" expanded="true" signature="10629:10914" ph="INSERT INTO DYTT... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -766,6 +761,26 @@
         <state relative-caret-position="0">
           <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dytt/dytt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3739">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1519316934404" expanded="true" signature="597:622" ph="DROP TABLE I... " />
+            <marker date="1519316934404" expanded="true" signature="642:1273" ph="CREATE TABLE... DYTT" />
+            <marker date="1519316934404" expanded="true" signature="7048:7333" ph="INSERT INTO DYTT... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/b53de5e1/7f398a7d-3f56-4fc2-aa33-3b2da827535d/mjy_test.dytt">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
