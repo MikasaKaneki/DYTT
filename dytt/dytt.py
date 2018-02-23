@@ -92,82 +92,82 @@ class MovieSky(object):
 
 			listTmp = []
 			subItemChinese_Name = re.findall(patternChinese_Name, html)
-			if (len(subItemChinese_Name) > 0):
+			if len(subItemChinese_Name) > 0:
 				listTmp.append(subItemChinese_Name[0])
 			else:
 				listTmp.append("")
 			subItemName = re.findall(patternName, html)
-			if (len(subItemName) > 0):
+			if len(subItemName) > 0:
 				listTmp.append(subItemName[0])
 			else:
 				listTmp.append("")
 			subItemYEAR = re.findall(patternYEAR, html)
-			if (len(subItemYEAR) > 0):
+			if len(subItemYEAR) > 0:
 				listTmp.append(subItemYEAR[0])
 			else:
 				listTmp.append("")
 			subItemProduction_Place = re.findall(patternProduction_Place, html)
-			if (len(subItemProduction_Place) > 0):
+			if len(subItemProduction_Place) > 0:
 				listTmp.append(subItemProduction_Place[0])
 			else:
 				listTmp.append("")
 			subItemType = re.findall(patternType, html)
-			if (len(subItemType) > 0):
+			if len(subItemType) > 0:
 				listTmp.append(subItemType[0])
 			else:
 				listTmp.append("")
 			subItemLanguage = re.findall(patternLanguage, html)
-			if (len(subItemLanguage) > 0):
+			if len(subItemLanguage) > 0:
 				listTmp.append(subItemLanguage[0])
 			else:
 				listTmp.append("")
 			subItemSubtitle = re.findall(patternSubtitle, html)
-			if (len(subItemSubtitle) > 0):
+			if len(subItemSubtitle) > 0:
 				listTmp.append(subItemSubtitle[0])
 			else:
 				listTmp.append("")
 			subItemIMDb = re.findall(patternIMDb, html)
-			if (len(subItemIMDb) > 0):
+			if len(subItemIMDb) > 0:
 				listTmp.append(subItemIMDb[0])
 			else:
 				listTmp.append("")
 			subItemDouban = re.findall(patternDouban, html)
-			if (len(subItemDouban) > 0):
+			if len(subItemDouban) > 0:
 				listTmp.append(subItemDouban[0])
 			else:
 				listTmp.append("")
 			subItemLayout = re.findall(patternLayout, html)
-			if (len(subItemLayout) > 0):
+			if len(subItemLayout) > 0:
 				listTmp.append(subItemLayout[0])
 			else:
 				listTmp.append("")
 			subItemSize = re.findall(patternSize, html)
-			if (len(subItemSize) > 0):
+			if len(subItemSize) > 0:
 				listTmp.append(subItemSize[0])
 			else:
 				listTmp.append("")
 			subItemFileSize = re.findall(patternFileSize, html)
-			if (len(subItemFileSize) > 0):
+			if len(subItemFileSize) > 0:
 				listTmp.append(subItemFileSize[0])
 			else:
 				listTmp.append("")
 			subItemTime = re.findall(patternTime, html)
-			if (len(subItemTime) > 0):
+			if len(subItemTime) > 0:
 				listTmp.append(subItemTime[0])
 			else:
 				listTmp.append("")
 			subItemDirector = re.findall(patternDirector, html)
-			if (len(subItemDirector) > 0):
+			if len(subItemDirector) > 0:
 				listTmp.append(subItemDirector[0])
 			else:
 				listTmp.append("")
 			subItemActer = re.findall(patternActer, html)
-			if (len(subItemActer) > 0):
+			if len(subItemActer) > 0:
 				listTmp.append(subItemActer[0])
 			else:
 				listTmp.append("")
 			subItemLink = re.findall(patternLink, html)
-			if (len(subItemLink) > 0):
+			if len(subItemLink) > 0:
 				listTmp.append(subItemLink[0])
 			else:
 				listTmp.append("")
